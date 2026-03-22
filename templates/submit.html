@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-6 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h4><i class="fas fa-upload me-2"></i>Submit Assignment</h4>
+            </div>
+            <div class="card-body">
+                <form method="POST" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label class="form-label">Student Name</label>
+                        <input type="text" name="student_name" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Student ID</label>
+                        <input type="text" name="student_id" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Assignment Name</label>
+                        <input type="text" name="assignment_name" class="form-control" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Select File</label>
+                        <input type="file" name="file" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit Assignment</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
