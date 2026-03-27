@@ -1,0 +1,1 @@
+Developed a Lab Submission Web Application that streamlines assignment management. It enables students to upload work securely and allows teachers to monitor submissions efficiently. Features include authentication, file upload, deadline enforcement, dashboards, and email notifications for better workflow management.
